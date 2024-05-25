@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Blog-context-2">
     <AppContextProvider>
       <App />
     </AppContextProvider>
